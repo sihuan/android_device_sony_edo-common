@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     tinymix
 
+# BT Audio (Disable QTI BT Stack)
+TARGET_USE_QTI_BT_STACK := false
+
 # Audio policies
 PRODUCT_COPY_FILES += \
    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/a2dp_audio_policy_configuration.xml \
