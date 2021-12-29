@@ -164,6 +164,11 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+    
+# Sensor
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0 \
+    android.hardware.sensors@2.1
 
 # Telephony
 PRODUCT_PACKAGES += \
