@@ -21,8 +21,9 @@
     <dimen name="vertical_max_shift">1.0dp</dimen>
     
     <!-- Define statusbar padding. -->
-    <dimen name="status_bar_padding_start">2dp</dimen>
-    <dimen name="status_bar_padding_end">2dp</dimen>
+    <dimen name="status_bar_padding_top">0dp</dimen>
+    <dimen name="status_bar_padding_start">4.0dp</dimen>
+    <dimen name="status_bar_padding_end">4.0dp</dimen>
     
     <!-- The maximum offset in either direction that elements are moved horizontally to prevent
          burn-in on status bar and navigation bar. -->
