@@ -19,11 +19,11 @@
     <screenBrightnessMap>
         <point>
             <value>0.0</value>
-            <nits>0.9</nits>
+            <nits>2.0</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>611.0</nits>
+            <nits>460.0</nits>
         </point>
     </screenBrightnessMap>
 </displayConfiguration>

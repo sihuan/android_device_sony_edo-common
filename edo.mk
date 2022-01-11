@@ -114,9 +114,7 @@ PRODUCT_PACKAGES += \
 
 # Display Device Config
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display_19260591652815745.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_19260591652815745.xml \
-    $(LOCAL_PATH)/configs/display_19261151497321857.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_19261151497321857.xml
-    
+    $(LOCAL_PATH)/configs/display_port_129.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_port_129.xml
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
