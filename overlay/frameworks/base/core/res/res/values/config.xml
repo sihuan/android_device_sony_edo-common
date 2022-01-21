@@ -447,10 +447,6 @@
     </array>
     
     <integer-array name="config_screenBrighteningThresholds">
-        <item>100</item>
-    </integer-array>
-    
-    <integer-array name="config_screenBrighteningThresholds">
         <item>200</item>
     </integer-array>
     
@@ -467,15 +463,6 @@
          brightening or dimming debounce thresholds.  As a result, it may take somewhat longer to
          adapt to the environment.  This mode may be better suited for watches. -->
     <bool name="config_autoBrightnessResetAmbientLuxAfterWarmUp">true</bool>
-    
-    
-    <!-- Flag indicating whether we should enable the automatic brightness.
-         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
-    <bool name="config_automatic_brightness_available">true</bool>
-    
-    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-         in hardware. -->
-    <bool name="config_setColorTransformAccelerated">true</bool>
     
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
